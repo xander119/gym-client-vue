@@ -1,22 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ExampleComp msg="thisis an app"/>
+    <router-view></router-view>
   </div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ExampleComp from './components/ExampleComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ExampleComp,
+  },
+  methods: {
+    dsd(){
+      console.log('exanoke')
+    }
+  },
+  data() {
+    return {}
   }
 }
 </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
