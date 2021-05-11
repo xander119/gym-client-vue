@@ -1,5 +1,5 @@
 <template>
-  <el-table
+<!--  <el-table
       :data="tableData"
       border
       style="width: 100%">
@@ -43,8 +43,11 @@
         <el-button type="text" size="small">编辑</el-button>
       </template>
     </el-table-column>
-  </el-table>
-<!--  <el-button @click="getlist()" type="text" size="small">获取所有列表</el-button>-->
+  </el-table>-->
+  <!--  <el-button @click="getlist()" type="text" size="small">获取所有列表</el-button>-->
+  <div>
+    this is the static data View
+  </div>
 </template>
 
 <script>
@@ -64,7 +67,7 @@ export default {
   },
   data() {
 
-    return;
+    return{};
   }
 }
 </script>

@@ -1,6 +1,10 @@
 <template>
   <div class="hello">
-    <router-link to="/staticDataManagement"> Static Data Management</router-link>
+    Hello
+    <div>
+      <router-link to="/staticDataManagement"> Static Data Management</router-link>
+      <router-link to="/fodddo/example">fodddo</router-link>
+    </div>
   </div>
 </template>
 

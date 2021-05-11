@@ -1,19 +1,24 @@
 <template>
   <div id="app">
-    <ExampleComp msg="thisis an app"/>
+<!--    <ExampleComp msg="thisis an app"/>-->
+    <div>
+
+      <router-link to="/staticDataManagement"> Static Data Management</router-link>
+      <div>
+        <router-link to="/fodddo/example">fodddo</router-link>
+      </div>
+    </div>
     <router-view></router-view>
   </div>
 
 </template>
 
 <script>
-import ExampleComp from './components/ExampleComp.vue'
+// import ExampleComp from './components/ExampleComp.vue'
 
 export default {
   name: 'App',
-  components: {
-    ExampleComp,
-  },
+
   methods: {
     dsd(){
       console.log('exanoke')
