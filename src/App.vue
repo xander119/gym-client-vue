@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-<!--    <ExampleComp msg="thisis an app"/>-->
+    <ExampleComp msg="thisis an app"/>
     <div>
 
       <router-link to="/staticDataManagement"> Static Data Management</router-link>
